@@ -204,9 +204,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Running Sun-store Server');
+    res.send('Running Sunstore Server');
 });
 
 app.listen(port, () => {
-    console.log('Running Sun-store Server on port', port);
+    console.log('Running Sunstore Server on port', port);
 })
